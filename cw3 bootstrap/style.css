@@ -1,0 +1,56 @@
+.box {
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	background-color: green;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	background-color: yellow;
+	float: left;
+}
+nav ul li {
+	padding: 10px 20px;
+	display: inline-block;
+	list-style: none;
+}
+
+main {
+	display: flex;
+	width: 50%;
+	background-color: red;
+	float: left;
+}
+
+section {
+	display: flex;
+	background-color: pink;
+	display: inline-block;
+	width: 50%;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	background-color: blue;
+	text-align: center;
+	float: left;
+}
+
+img {
+	width: 25%;
+	border-radius: 50%;
+	border: 8px solid black;
+}
+
+p {
+	text-align: center;
+	font-size: small;
+	color: grey;
+	letter-spacing: 2px;
+}
